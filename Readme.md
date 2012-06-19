@@ -55,6 +55,7 @@ To run the PrimeLongKeyedAnagramFinder based implementation
 ## Input data format
 
 For the sake of simplicity the input data in the input file is assumed to be a list of whitespace delimited words.
+
 For example (src/test/resources/testFile1.txt):
 
     scare races cares another acres car arc kile like ikel none fun foobar barfoo ofoarb
