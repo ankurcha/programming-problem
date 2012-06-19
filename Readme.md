@@ -34,3 +34,27 @@ words that have the same letters(irrespective of their order).
 ### Complexity analysis
 
 * Assuming input is n characters long time complexity is **O(n^2)**
+
+## How to run
+
+###Tests
+
+The tests can be run using the following command
+    mvn test
+
+### PrimeLongKeyedAnagramFinder
+
+To run the PrimeLongKeyedAnagramFinder based implementation
+    mvn install -P prime -q -DinputfilePath="/path/to/testdata"
+
+### StringAnagramFinder
+
+To run the PrimeLongKeyedAnagramFinder based implementation
+    mvn install -P string -q -DinputfilePath="/path/to/testdata"
+
+## Input data format
+
+For the sake of simplicity the input data in the input file is assumed to be a list of whitespace delimited words.
+For example (src/test/resources/testFile1.txt):
+    scare races cares another acres car arc kile like ikel none fun foobar barfoo ofoarb
+
