@@ -1,0 +1,28 @@
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.cache
+
+# idea conf files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# building
+target
+build
+null
+tmp
+temp
+test-output
+build.log
+
+# misc
+.DS_Store
+*~
+.sass-cache
+keystore
+bpm_*
