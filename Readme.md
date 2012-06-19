@@ -33,4 +33,4 @@ words that have the same letters(irrespective of their order).
 
 ### Complexity analysis
 
-* Assuming input is n characters long time complexity is O(n^2)
+* Assuming input is n characters long time complexity is **O(n^2)**
