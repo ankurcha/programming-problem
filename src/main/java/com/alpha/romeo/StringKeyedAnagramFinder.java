@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * A simple string based implementation of the Anagram finder
+ *
  * User: achauhan
  * Date: 6/18/12
  */

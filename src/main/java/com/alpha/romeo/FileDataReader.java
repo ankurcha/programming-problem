@@ -4,6 +4,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
+ * A file based implementation of the data reader, this class accepts a file path
+ * and reads the file into a string.
+ *
  * User: achauhan
  * Date: 6/18/12
  */

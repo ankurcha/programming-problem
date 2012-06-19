@@ -4,6 +4,8 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
+ * Utility class that pretty prints a map field.
+ *
  * User: achauhan
  * Date: 6/18/12
  */

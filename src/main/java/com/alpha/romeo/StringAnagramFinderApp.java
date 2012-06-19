@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Map;
 
 /**
- * Hello world!
+ * Uses the string sorting implementation of the anagram finder
  *
  */
 public class StringAnagramFinderApp {

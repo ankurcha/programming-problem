@@ -8,11 +8,20 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * This implemetation of the Anagram finder uses a prime number multiplicative hash for generating the keys for the
+ * anagrams.
+ *
  * User: achauhan
  * Date: 6/19/12
  */
 public class PrimeLongKeyedAnagramFinder implements AnagramFinder {
 
+    /**
+     * This is a carefully selected series of prime number that is in no particular order.
+     *
+     * All characters appearing in this work are fictitious. Any resemblance to real persons, living or dead, is purely coincidental.
+     *
+     */
     final int[] PRIMES = { 2, 41, 37, 47, 3, 67, 71, 23, 5, 101, 61, 17, 19, 13, 31, 43, 97, 29, 11, 7, 73, 83, 79, 89, 59, 53 };
 
     DataReader reader;
