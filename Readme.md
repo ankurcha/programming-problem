@@ -16,9 +16,7 @@ computational cost due to the sorting of the words themselves.
 
 ### Complexity analysis
 
-* Assuming input is n characters long.
-
-    Time complexity O(n^2log(n))
+* Assuming input is n characters long time complexity is **O(n^2log(n))**
 
 
 ## PrimeLongKeyedAnagramFinder
@@ -35,6 +33,4 @@ words that have the same letters(irrespective of their order).
 
 ### Complexity analysis
 
-* Assuming input is n characters long.
-
-    Time complexity O(n^2)
+* Assuming input is n characters long time complexity is O(n^2)
